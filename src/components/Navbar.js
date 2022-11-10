@@ -11,7 +11,7 @@ export default function Navbar() {
             <img src={logo}alt=""/>
         </div>
         <ul>
-            <Link to="/"><li className="list"><a href=' #'> Home</a></li></Link>
+            <Link to="/"><li className="list"> <a href=' #'>Home</a></li></Link>
             <Link to="/About"><li className="list"><a href=' #'>About us</a></li></Link>
             <Link to="/Services"><li className="list"><a href=' #'> Services</a> </li></Link>
             <Link to="/News"><li className="list"><a href=' #'> News</a></li></Link>

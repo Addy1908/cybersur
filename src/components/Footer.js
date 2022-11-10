@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <>
     <div className="footer">
-        <p> Copyright &copy; Cybersûr . All Rights Reserved!</p>
+        <p> Copyright &copy; 2022 Cybersûr . All Rights Reserved!</p>
         </div>
     </>
   )
