@@ -4,6 +4,7 @@ import logo1 from '../images/logo1.png'
 import logo2 from '../images/logo2.png'
 import logo3 from '../images/logo3.png'
 import logo4 from '../images/logo4.PNG'
+import logo5 from '../images/logo5.png'
 // import '../style/about.css'
 // import bg from '../images/images.jpg'
 import '../style/style.css'
@@ -45,8 +46,16 @@ export default function Services() {
       const saveFile4 = (e) => {
         e.preventDefault();
         saveAs(
-          "https://drive.google.com/drive/folders/1LN3XSUPPM6s9OZmb_3KIXb0soNlDzWMI?usp=share_link",
+          "https://drive.google.com/drive/folders/1gLtYy7jk8nqWbvfuEdXm0ZHy1jkKZuNc?usp=share_link",
           "Antivirus"
+        );
+      };
+
+      const saveFile5 = (e) => {
+        e.preventDefault();
+        saveAs(
+          "https://drive.google.com/drive/folders/17iP4vPTKACZBRKUQSMZLs7JFtstd2qet?usp=share_link",
+          "password"
         );
       };
 
@@ -124,12 +133,12 @@ export default function Services() {
                     <button type="button" className="btn-hover color-2 downloadBtn4" onClick={saveFile4}>Download</button>
             </div>
             <div className="box">
-                <img src={logo4} alt=""/>
-                <h2 className="secondary">Sentiment Analyzer</h2>
-                <p className="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus facilis
-                    excepturi neque, dolorem quis ducimus, at commodi delectus reprehenderit doloremque sit deleniti
-                    quibusdam, natus .</p>
-                    <button type="button" className="btn-hover color-2 downloadBtn5" onClick={saveFile4}>Download</button>
+                <img src={logo5} alt=""/>
+                <h2 className="secondary">Password Manager</h2>
+                <p className="para"><b>Password Manager </b> allows you to effectively store your passwords.This software is a python application that manages login and signup credentials of a 
+                person for various accounts i.e. username and passwords for each account. It also stores the passwords and generates a unique password for a user if they do not want to 
+                generate new passwords by themselves.</p>
+                    <button type="button" className="btn-hover color-2 downloadBtn5" onClick={saveFile5}>Download</button>
             </div>
 
              {/* <div className="box">
