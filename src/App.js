@@ -4,6 +4,8 @@ import Banner from "./components/Banner";
 import About from "./components/About";
 import Services from "./components/Services";
 import News from "./components/News";
+// import Educational from "./components/Educational";
+
 
 
 // import { render } from "react-dom";
@@ -29,6 +31,7 @@ export default function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/services' element={<Services/>}/>
         <Route path='/news' element={<News/>}/>
+        
       </Routes>
       
 

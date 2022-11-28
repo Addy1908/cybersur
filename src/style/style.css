@@ -57,6 +57,7 @@ ul{
 #navbar ul li{
     list-style: none;
 font-size: 15px;
+
 }
 #navbar ul li a{
     color: blanchedalmond;
@@ -64,11 +65,13 @@ font-size: 15px;
     padding: 3px 20px;
     border-radius: 20px;
     font-size: 18px;
-    text-decoration: none;
+    /* text-decoration: none; */
+    text-decoration-line: none;
 }
 #navbar ul li a:hover{
     color: rgb(24, 23, 23);
     background-color: white;
+    text-decoration: none;
 
 }
 
@@ -245,11 +248,13 @@ span{
 }
 
 
-.btn-link:hover {
+/* .btn-link:hover {
   color: #1b1c1e;
+} */
+
+.btn-link:hover {
+  color: #1d5ee1;
 }
-
-
 
 #serve{
     margin: 34px;
@@ -649,3 +654,13 @@ span{
 .downloadBtn5{
   margin-left: 260px;
 }
+
+
+.edu{
+  margin-top: 10%;
+}
+
+
+/* ///////////\\\\\\\\\\\\\\\\ */
+/* contact us */
+
